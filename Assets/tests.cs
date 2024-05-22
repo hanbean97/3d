@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class tests : MonoBehaviour
 {
-    // Start is called before the first frame update
     void Start()
     {
         MeshRenderer mr = GetComponent<MeshRenderer>();
@@ -13,9 +12,10 @@ public class tests : MonoBehaviour
 
     }
 
-    // Update is called once per frame
     void Update()
     {
         
     }
+
+  
 }
